@@ -8,9 +8,9 @@ using namespace std;
 #define forj(n) for( int j = 0; j < n;j++)
 #define fore(i, left, right) for(int i = int(left); i < int(right); i++)
 
-#define length  4000
+#define length  400
 #define scale  2
-#define maxiter 100
+#define maxiter 50
 
 double map2xy(double i){
 	double point =  i*scale/(length - 1) -  scale*(1 - i/(length - 1));
